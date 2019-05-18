@@ -1,0 +1,27 @@
+html {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 200px;
+  }
+
+  html body {
+    margin-bottom: 60px;
+  }
+
+  html #footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 150px;
+    background-color: #363636;
+  }
+  
+
+.footer_copyright {
+    font-size: 1rem;
+}
+
+img {
+  width: 70px;
+  margin: 20px;
+}
