@@ -38,15 +38,14 @@ class Dashboard extends Component {
 
                         {/* Cards Start Here */}
                         <div className="row firstrow">
-                            {/* Burger Card */}
-                            <div className="col-md-4 mx-auto col1">
-                                <div className="card card1">
-                                    <div className="card__side card__side--front card__side--front-1">
+                            {/* Familiar Engineering Card */}
+                            <div className="x col-md-4 mx-auto col1">
+                                <div className="card">
+                                    <div className="x card__side card__side--front card__side--front-1">
                                         <div className="card__picture card__picture--1">
-
                                         </div>
                                         <h4 className="card__heading card__heading--1">
-                                            <span className="card__heading-span card__heading-span--1">Burger App</span>
+                                            <span className="card__heading-span card__heading-span--1">Familiar Engineering</span>
                                         </h4>
                                         <div className="card__details card__details--1">
                                             <ul>
@@ -58,11 +57,11 @@ class Dashboard extends Component {
                                     <div className="card__side card__side--back card__side--back-1">
                                         <div className="card__cta">
                                             <div className="card__info-box">
-                                                <p className="card__info-view">MySQL - ORM - Handlebars </p>
+                                                <p className="card__info-view">Firebase - NodeMailer - Express </p>
                                                 <p className="card__info-view">HTML - CSS - Node.js</p>
                                             </div>
-                                            <a href="https://burger-app-1-bluecam.herokuapp.com/" className="btn btn-lg mx-2" target="_blank" >Website</a>
-                                            <a href="https://github.com/bluecam74/burger" className="btn btn-lg mx-2" target="_blank" >GitHub</a>
+                                            <a href="https://fam-engineering.herokuapp.com" className="btn btn-lg mx-2" target="_blank" >Website</a>
+                                            <a href="https://github.com/bluecam74/Familiar-Engineering" className="btn btn-lg mx-2" target="_blank" >GitHub</a>
                                         </div>
                                     </div>
                                 </div>
@@ -132,7 +131,36 @@ class Dashboard extends Component {
                             </div> 
 
                             <div className="row secondrow">
-                            {/*  Crystal Game Card */}
+                            {/* Burger Card */}
+                            <div className="col-md-4 mx-auto col1">
+                                <div className="card">
+                                    <div className="card__side card__side--front card__side--front-4">
+                                        <div className="card__picture card__picture--4">
+
+                                        </div>
+                                        <h4 className="card__heading card__heading--4">
+                                            <span className="card__heading-span card__heading-span--1">Burger App</span>
+                                        </h4>
+                                        <div className="card__details card__details--4">
+                                            <ul>
+                                                <li>Full Stack</li>
+                                                <li>Database Application</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="card__side card__side--back card__side--back-2">
+                                        <div className="card__cta">
+                                            <div className="card__info-box">
+                                                <p className="card__info-view">MySQL - ORM - Handlebars </p>
+                                                <p className="card__info-view">HTML - CSS - Node.js</p>
+                                            </div>
+                                            <a href="https://burger-app-1-bluecam.herokuapp.com/" className="btn btn-lg mx-2" target="_blank" >Website</a>
+                                            <a href="https://github.com/bluecam74/burger" className="btn btn-lg mx-2" target="_blank" >GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             {/* Crystal Game Card
                             <div className="col-md-4 mx-auto">
                                 <div className="card">
                                     <div className="card__side card__side--front card__side--front-3">
@@ -159,13 +187,13 @@ class Dashboard extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             {/* Word Guess Card */}
                             <div className="col-md-4 mx-auto">
                                 <div className="card">
                                     <div className="card__side card__side--front card__side--front-4">
-                                        <div className="card__picture card__picture--4">
+                                        <div className="card__picture card__picture--5">
 
                                         </div>
                                         <h4 className="card__heading card__heading--4">
