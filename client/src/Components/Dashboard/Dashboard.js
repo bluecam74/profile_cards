@@ -39,9 +39,9 @@ class Dashboard extends Component {
                         {/* Cards Start Here */}
                         <div className="row firstrow">
                             {/* Familiar Engineering Card */}
-                            <div className="x col-md-4 mx-auto col1">
+                            <div className="col-md-4 mx-auto col1">
                                 <div className="card">
-                                    <div className="x card__side card__side--front card__side--front-1">
+                                    <div className="card__side card__side--front card__side--front-1">
                                         <div className="card__picture card__picture--1">
                                         </div>
                                         <h4 className="card__heading card__heading--1">
