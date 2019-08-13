@@ -34,6 +34,18 @@
  }
 
  @media screen and (max-width: 770px) {
+    .app_desc {
+        display: none !important;
+    }
+
+    .mobile_links {
+        display: block !important;
+    }
+
+    .mobile_links a {
+        margin: 5px;
+        background-color: #1494b4c2;
+    }
 
     .header {
         height: 75vh;
@@ -141,6 +153,7 @@
     border: none;
     position: relative;
     height: 25rem;
+    min-width: 17rem;
     max-width: 20rem;
     margin: 20px;
     margin-top: 50px;
@@ -292,13 +305,13 @@
 }
 
 .card__details {
-    padding-top: 1rem;
+    padding-top: 0rem;
     padding-right: 1.5rem;
 }
 
 .card__details ul {
     list-style: none;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -308,8 +321,16 @@
     padding: 1rem;
 }
 
-.card__details ul li:not(:last-child) {
+.card__details ul li:first-child {
     border-bottom: 1px solid gray;
+}
+
+.app_desc {
+    display: block;
+}
+
+.mobile_links {
+    display:none;
 }
 
 .card__cta {

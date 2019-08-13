@@ -50,7 +50,11 @@ class Dashboard extends Component {
                                         <div className="card__details card__details--1">
                                             <ul>
                                                 <li>Full Stack</li>
-                                                <li>Database Application</li>
+                                                <li class="app_desc">Database Application</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://fam-engineering.herokuapp.com" className="btn btn-lg mx-2" target="_blank" >Website</a>
+                                                    <a href="https://github.com/bluecam74/Familiar-Engineering" className="btn btn-lg mx-2" target="_blank" >GitHub</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -80,7 +84,11 @@ class Dashboard extends Component {
                                         <div className="card__details card__details--2">
                                             <ul>
                                                 <li>Full Stack </li>
-                                                <li>Scrape Application</li>
+                                                <li class="app_desc">Scrape Application</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://scrape-news-notes.herokuapp.com/" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                                    <a href="https://github.com/bluecam74/Scrape" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -111,7 +119,11 @@ class Dashboard extends Component {
                                         <div className="card__details card__details--3">
                                             <ul>
                                                 <li>Javascript / jQuery</li>
-                                                <li>Timers Application</li>
+                                                <li class="app_desc">Timer Application</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://bluecam74.github.io/TriviaGame/" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                                    <a href="https://github.com/bluecam74/TriviaGame" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -144,7 +156,11 @@ class Dashboard extends Component {
                                         <div className="card__details card__details--4">
                                             <ul>
                                                 <li>Full Stack</li>
-                                                <li>Database Application</li>
+                                                <li class="app_desc">Database Application</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://burger-app-1-bluecam.herokuapp.com/" className="btn btn-lg mx-2" target="_blank" >Website</a>
+                                                    <a href="https://github.com/bluecam74/burger" className="btn btn-lg mx-2" target="_blank" >GitHub</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -202,7 +218,11 @@ class Dashboard extends Component {
                                         <div className="card__details card__details--4">
                                             <ul>
                                                 <li>Javascript / jQuery</li>
-                                                <li>Word Guess Game</li>
+                                                <li class="app_desc">Word Guess Game</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://bluecam74.github.io/Word-Guess-Game/" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                                    <a href="https://github.com/bluecam74/Word-Guess-Game" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -230,7 +250,11 @@ class Dashboard extends Component {
                                         <div className="card__details card__details--1">
                                             <ul>
                                                 <li>Full Stack</li>
-                                                <li>React Application</li>
+                                                <li class="app_desc">React Application</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://pikmin-clicky.herokuapp.com/" className="btn btn-lg mx-2" target="_blank" >Website</a>
+                                                    <a href="https://github.com/bluecam74/Pikmin-Clicky-Game" className="btn btn-lg mx-2" target="_blank" >GitHub</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -250,8 +274,6 @@ class Dashboard extends Component {
                     </section>
                 </div>
                 <div className="header1">
-
-
                     <div className="jumbotron" >
                         <h1 className="display-4 text-center">About Me</h1>
                         {/* <hr className="my-4" /> */}
