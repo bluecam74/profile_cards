@@ -42,6 +42,19 @@
         display: block !important;
     }
 
+    .card:hover .card__side--front {
+        transform: none !important;
+    }
+
+    .card:hover .card__side {
+        transform: none !important;
+    }
+
+    .card__side--back {
+        transform: none !important;
+        display: none;
+    }
+
     .mobile_links a {
         margin: 5px;
         background-color: #1494b4c2;

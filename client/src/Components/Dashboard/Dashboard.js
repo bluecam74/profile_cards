@@ -118,7 +118,7 @@ class Dashboard extends Component {
                                         </h4>
                                         <div className="card__details card__details--3">
                                             <ul>
-                                                <li>Javascript / jQuery</li>
+                                                <li>Javascript</li>
                                                 <li class="app_desc">Timer Application</li>
                                                 <li class="mobile_links">
                                                     <a href="https://bluecam74.github.io/TriviaGame/" className="btn btn-lg mx-2" target="_blank">Website</a>
@@ -217,7 +217,7 @@ class Dashboard extends Component {
                                         </h4>
                                         <div className="card__details card__details--4">
                                             <ul>
-                                                <li>Javascript / jQuery</li>
+                                                <li>Javascript</li>
                                                 <li class="app_desc">Word Guess Game</li>
                                                 <li class="mobile_links">
                                                     <a href="https://bluecam74.github.io/Word-Guess-Game/" className="btn btn-lg mx-2" target="_blank">Website</a>
