@@ -114,15 +114,15 @@ class Dashboard extends Component {
 
                                         </div>
                                         <h4 className="card__heading card__heading--3">
-                                            <span className="card__heading-span card__heading-span--1">Classic Camaro Trivia</span>
+                                            <span className="card__heading-span card__heading-span--1">Full Circle</span>
                                         </h4>
                                         <div className="card__details card__details--3">
                                             <ul>
-                                                <li>Javascript</li>
-                                                <li class="app_desc">Timer Application</li>
+                                                <li>Full Stack</li>
+                                                <li class="app_desc">Recycling Application (Collaborative)</li>
                                                 <li class="mobile_links">
-                                                    <a href="https://bluecam74.github.io/TriviaGame/" className="btn btn-lg mx-2" target="_blank">Website</a>
-                                                    <a href="https://github.com/bluecam74/TriviaGame" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                                    <a href="https://full-circle-19.herokuapp.com" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                                    <a href="https://github.com/bluecam74/Full_Circle" className="btn btn-lg mx-2" target="_blank">GitHub</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -130,11 +130,12 @@ class Dashboard extends Component {
                                     <div className="card__side card__side--back card__side--back-1">
                                         <div className="card__cta">
                                             <div className="card__info-box">
-                                                <p className="card__info-view">jQuery - Javascript</p>
-                                                <p className="card__info-view">setTimeout Method</p>
+                                                <p className="card__info-view">Passport - Express - Javascript</p>
+                                                <p className="card__info-view">MySQL - Sequelize - Handlebars</p>
+                                                <p className="card__info-view">Here API - Bcrypt - Node.js</p>
                                             </div>
-                                            <a href="https://bluecam74.github.io/TriviaGame/" className="btn btn-lg mx-2" target="_blank">Website</a>
-                                            <a href="https://github.com/bluecam74/TriviaGame" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                            <a href="https://full-circle-19.herokuapp.com" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                            <a href="https://github.com/bluecam74/Full_Circle" className="btn btn-lg mx-2" target="_blank">GitHub</a>
                                         </div>
                                     </div>
                                 </div>
@@ -204,9 +205,40 @@ class Dashboard extends Component {
                                     </div>
                                 </div>
                             </div> */}
-
-                            {/* Word Guess Card */}
+                            {/*Trivia Game*/}
                             <div className="col-md-4 mx-auto">
+                                <div className="card">
+                                    <div className="card__side card__side--front card__side--front-4">
+                                        <div className="card__picture card__picture--5">
+
+                                        </div>
+                                        <h4 className="card__heading card__heading--4">
+                                            <span className="card__heading-span card__heading-span--1">Classic Camaro Trivia</span>
+                                        </h4>
+                                        <div className="card__details card__details--4">
+                                        <ul>
+                                                <li>Javascript</li>
+                                                <li class="app_desc">Timer Application</li>
+                                                <li class="mobile_links">
+                                                    <a href="https://bluecam74.github.io/TriviaGame/" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                                    <a href="https://github.com/bluecam74/TriviaGame" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="card__side card__side--back card__side--back-1">
+                                        <div className="card__cta">
+                                            <div className="card__info-box">
+                                                <p className="card__info-view">Javascript - jQuery</p>
+                                            </div>
+                                            <a href="https://bluecam74.github.io/TriviaGame/" className="btn btn-lg mx-2" target="_blank">Website</a>
+                                            <a href="https://github.com/bluecam74/TriviaGame" className="btn btn-lg mx-2" target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Word Guess Card */}
+                            {/* <div className="col-md-4 mx-auto">
                                 <div className="card">
                                     <div className="card__side card__side--front card__side--front-4">
                                         <div className="card__picture card__picture--5">
@@ -236,7 +268,7 @@ class Dashboard extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* Pikmin Clicky Card */}
                             <div className="col-md-4 mx-auto col1">
                                 <div className="card card1">

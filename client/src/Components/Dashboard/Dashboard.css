@@ -243,7 +243,7 @@
 }
 
 .card__picture--3 {
-    background-image: linear-gradient(to right bottom, rgb(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/camaro_filt.jpg);
+    background-image: linear-gradient(to right bottom, rgb(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/FullCircle.png);
 }
 
 .card__picture--4 {
@@ -251,7 +251,7 @@
 }
 
 .card__picture--5 {
-    background-image: linear-gradient(to right bottom, rgb(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/wordGuess_filt.jpg);
+    background-image: linear-gradient(to right bottom, rgb(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/camaro_filt.jpg);
 }
 
 .card__picture--6 {
