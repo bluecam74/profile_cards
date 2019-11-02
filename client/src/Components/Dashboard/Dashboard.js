@@ -132,7 +132,7 @@ class Dashboard extends Component {
                                             <div className="card__info-box">
                                                 <p className="card__info-view">Passport - Express - Javascript</p>
                                                 <p className="card__info-view">MySQL - Sequelize - Handlebars</p>
-                                                <p className="card__info-view">Here API - Bcrypt - Node.js</p>
+                                                <p className="card__info-view">Google Maps API - Bcrypt - Node.js</p>
                                             </div>
                                             <a href="https://full-circle-19.herokuapp.com" className="btn btn-lg mx-2" target="_blank">Website</a>
                                             <a href="https://github.com/bluecam74/Full_Circle" className="btn btn-lg mx-2" target="_blank">GitHub</a>
