@@ -6,13 +6,10 @@ import "./Dashboard.css";
 class Dashboard extends Component {
 
     render() {
-        console.log(this.props.state)
         return (
 
             <div className="background">
                 <div className="header">
-
-
                     <div className="jumbotron" >
                         <h1 className="display-4 text-center">Malak Abdul</h1>
                         <h4 className=" text-center">Full Stack Web Developer</h4>
@@ -313,7 +310,7 @@ class Dashboard extends Component {
                             <div className="col-md profBox">
                                 {/* <div className = "row"> */}
 
-                                <div className="profPic"><img src={profPic} alt='Profile Pic' /></div>
+                                <div className="profPic"><img src={profPic} alt='Malak Abdul' /></div>
 
                                 <div className="profText">
                                     <p>Malak was born and raised in Orange County. She went to college at UC Irvine and obtained a degree in Criminology and Law. In her free time, she likes to surf, snowboard, and take long drives.</p>
