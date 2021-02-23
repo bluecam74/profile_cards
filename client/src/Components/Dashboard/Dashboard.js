@@ -304,7 +304,7 @@ class Dashboard extends Component {
                 </div>
                 <div className="header1">
                     <div className="jumbotron" >
-                        <h1 className="display-4 text-center">About Me</h1>
+                        <h2 className="display-4 text-center about-me-title">About Me</h2>
                         {/* <hr className="my-4" /> */}
                         <div className="row my-2">
                             <div className="col-md profBox">
